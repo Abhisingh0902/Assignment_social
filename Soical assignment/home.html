@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to the Home Page</h1>
+    
+    <!-- Fetch user data section -->
+    <div class="fetch">
+      <h2>Fetch User Data</h2>
+      <form method="get" action="fetch.php">
+        <button type="submit">Fetch User Data</button>
+      </form>
+    </div>
+    
+    <!-- Profile section -->
+    <div class="profile">
+      <h2>My Profile</h2>
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Email:</strong> john@example.com</p>
+      <p><strong>Username:</strong> johndoe</p>
+      <button><a href="edit_profile.php">Edit Profile</a></button>
+    </div>
+    
+    <!-- News feed section -->
+    <div class="news-feed">
+      <h2>News Feed</h2>
+      <p>Here are the latest news and updates:</p>
+      <ul>
+        <li>Update 1</li>
+        <li>Update 2</li>
+        <li>Update 3</li>
+      </ul>
+    </div>
+    
+    <!-- Logout button -->
+    <div class="logout">
+      <form method="post" action="logout.php">
+        <button type="submit">Logout</button>
+      </form>
+    </div>
+    
+  </div>
+</body>
+</html>
